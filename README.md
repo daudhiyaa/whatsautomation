@@ -12,6 +12,35 @@ pip install pywhatkit
 
 Note : PyWhatKit officially supports Python 3.8+
 
-### Documentation
+## Documentation
 
 Please refer to [this link](https://pypi.org/project/pywhatkit/) to see the complete documentation
+
+# How to run
+
+1. Login onto your whatsapp account in whatsapp.web
+
+2. Clone the repository
+
+```git
+git clone https://github.com/daudhiyaa/whatsautomation.git
+```
+
+3. Install pywhatkit library
+
+4. Configure these variables depending on your needs
+
+```
+- list_name
+- list_number
+- img
+- msg
+```
+
+5. Run the program
+
+```py
+python main.py
+# or
+python3 main.py
+```
