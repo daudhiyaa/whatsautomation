@@ -1,7 +1,17 @@
 import pywhatkit as pw
 
-list_name = ['Cassandra', 'Alex']
-list_number = ['+628000', '+628111']
+list_number = []
+list_name = []
+
+f = open("wa_number.txt", "r")
+for num in f:
+  number = '+' + num[:-1]
+  list_number.append(number)
+
+f = open("recipients.txt", "r")
+for recipients in f:
+  list_name.append(recipients[:-1])
+
 img = '/Users/macbook/Downloads/pywhatkit.jpg' # path through your image
 
 for i, j in zip(list_name, list_number):

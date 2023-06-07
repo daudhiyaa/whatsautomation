@@ -22,25 +22,24 @@ Please refer to [this link](https://pypi.org/project/pywhatkit/) to see the comp
 
 2. Clone the repository
 
-```git
-git clone https://github.com/daudhiyaa/whatsautomation.git
-```
+   ```git
+   git clone https://github.com/daudhiyaa/whatsautomation.git
+   ```
 
 3. Install pywhatkit library
 
-4. Configure these variables depending on your needs
+4. To add recipients & their numbers, you can add it in `.txt` file depending on usage (`recipients.txt` for recipients name, `wa_number.txt` for their whatsapp number)
 
-```
-- list_name
-- list_number
-- img
-- msg
-```
+5. Configure these variables: `img` & `msg`, depending on your needs
 
-5. Run the program
+6. Run the program
 
-```py
-python main.py
-# or
-python3 main.py
-```
+   ```py
+   python main.py
+   ```
+
+   or
+
+   ```py
+   python3 main.py
+   ```
