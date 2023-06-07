@@ -18,7 +18,7 @@ Please refer to [this link](https://pypi.org/project/pywhatkit/) to see the comp
 
 # How to run
 
-1. Login onto your whatsapp account in whatsapp.web
+1. Login to your whatsapp account on whatsapp web
 
 2. Clone the repository
 
