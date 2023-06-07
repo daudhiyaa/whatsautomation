@@ -28,7 +28,7 @@ Please refer to [this link](https://pypi.org/project/pywhatkit/) to see the comp
 
 3. Install pywhatkit library
 
-4. To add recipients & their numbers, you can add it in `.txt` file depending on usage (`recipients.txt` for recipients name, `wa_number.txt` for their whatsapp number)
+4. To add recipients & their numbers, you can add it in `.txt` file depending on usage (`recipients_name.txt` for recipients name, `recipients_number.txt` for their whatsapp number)
 
 5. Configure these variables: `img` & `msg`, depending on your needs
 

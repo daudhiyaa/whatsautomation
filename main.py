@@ -3,12 +3,12 @@ import pywhatkit as pw
 list_number = []
 list_name = []
 
-f = open("wa_number.txt", "r")
+f = open("recipients_number.txt", "r")
 for num in f:
   number = '+' + num[:-1]
   list_number.append(number)
 
-f = open("recipients.txt", "r")
+f = open("recipients_name.txt", "r")
 for recipients in f:
   list_name.append(recipients[:-1])
 
